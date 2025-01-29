@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db:5432/appointments_dev
+    username: appointments_dev
+    password: 0513Appointments_dev
+  jpa:
+    hibernate:
+      ddl-auto: update
