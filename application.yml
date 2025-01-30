@@ -11,9 +11,10 @@ spring:
           uri: https://github.com/celotts/config-server-repo.git
           clone-on-start: true
 
-# 🔹 Deshabilitar la configuración de base de datos en Config Server
-  datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:testdb
-    username: sa
-    password: ""
+  main:
+    allow-bean-definition-overriding: true
+    web-application-type: none  # 🚨 Evita que levante un servidor web innecesario
+
+logging:
+  level:
+    org.springframework: INFO
