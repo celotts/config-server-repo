@@ -8,5 +8,15 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/TU-USUARIO-GITHUB/config-server-repo.git
+          uri: https://github.com/celotts/config-server-repo.git
           clone-on-start: true
+
+  # Deshabilitar DataSource en Config Server
+  datasource:
+    url: ""
+    username: ""
+    password: ""
+
+logging:
+  level:
+    org.springframework: INFO
