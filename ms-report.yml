@@ -1,2 +1,2 @@
 report:
-  template: "{name+' '+lastname} he was born {birthDate}, four gender {gender}, your blood type {bloodType} your email address {email}, your cell phone number {phone}, your address {address}"
+  template: "{name+' '+lastName} he was born {birthDate}, four gender {gender}, your blood type {bloodType} your email address {email}, your cell phone number {phone}, your address {address}"
